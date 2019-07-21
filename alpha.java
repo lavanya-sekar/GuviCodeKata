@@ -11,7 +11,7 @@ public class alpha()
 		}
 		else
 		{
-		System.out.println("Not an alphabet");
+		System.out.println("No");
 		}
 	}	
 }
