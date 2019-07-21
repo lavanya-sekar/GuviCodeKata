@@ -1,5 +1,5 @@
-a=input()
-if ((c>='a'and c<='z')or (c>='a'and c<='z')):
-	print("Alphabet")
-else
-	print("No")
+ch = input("")
+if((ord(ch) >= 65 and ord(ch) <= 90) or (ord(ch) >= 97 and ord(ch) <= 122)):
+    print("Alphabet")
+else:
+    print("No")
