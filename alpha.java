@@ -5,7 +5,7 @@ public class alpha()
 	{
 		BufferedReader b=new BufferedReader(new InputStreamReader(System.in));
 		char c=b.readLine();
-		if ((c>='a'&& c<='z')||(c>='a'&& c<='z'))
+		if ((c>='a'&& c<='z')||(c>='A'&& c<='Z'))
 		{
 		System.out.println("Alphabet");
 		}
