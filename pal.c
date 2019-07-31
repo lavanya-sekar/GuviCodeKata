@@ -3,12 +3,12 @@ int main()
 {
 int pal,num,i,sum=0;
 scanf("%d",&num);
-pal=num
+pal=num;
 while(num>0)
 {
-i=n%10;
+i=num%10;
 sum=(sum*10)+i;
-n=n/10;
+num=num/10;
 }
 if(sum==pal)
 {
